@@ -27,7 +27,7 @@ class StudyAlarmReceiver : BroadcastReceiver() {
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
         )
         val n = NotificationCompat.Builder(context, AlarmScheduler.CHANNEL_ID)
-            .setSmallIcon(R.drawable.ic_launcher_foreground)
+            .setSmallIcon(R.drawable.ic_stat_sainik)
             .setContentTitle("Study time: ${s.title}")
             .setContentText("${s.subjectTag} • ${s.durationMinutes} min session. Jai Hind — let's begin!")
             .setPriority(NotificationCompat.PRIORITY_MAX)

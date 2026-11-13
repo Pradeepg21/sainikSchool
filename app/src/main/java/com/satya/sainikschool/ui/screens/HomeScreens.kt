@@ -85,7 +85,7 @@ fun HomeScreen(nav: Nav) {
                     Text("Your complete AISSEE preparation — learn, practise, test and track.", color = Color.White.copy(alpha = 0.85f))
                     Spacer(Modifier.height(10.dp))
                     Text(
-                        "AISSEE 2027 expected in January 2027 • ${ContentRepository.chapterCount()} chapters • ${ContentRepository.totalCurated()}+ solved questions + unlimited practice",
+                        "AISSEE 2027 exam on 31 January 2027 • ${ContentRepository.chapterCount()} chapters • ${ContentRepository.totalCurated()}+ solved questions + unlimited practice",
                         style = MaterialTheme.typography.labelMedium, color = Color.White.copy(alpha = 0.9f),
                     )
                 }

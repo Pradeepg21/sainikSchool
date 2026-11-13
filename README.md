@@ -15,7 +15,8 @@ Jetpack Compose app for the All India Sainik Schools Entrance Exam (Class 6 and 
 - **Breadcrumbs** on every screen, plus a Home button in the top bar.
 
 ## Content notes
-- The 2027 exam dates are *expected*. Update `AdmissionInfo.kt` once NTA publishes the 2027 information bulletin.
+- AISSEE 2027 dates follow the NTA notification of 3 Nov 2026 (exam on 31 Jan 2027). The fee block still shows 2026 fees; update it from the 2027 bulletin.
+- Play Store listing text, icon, feature graphic and screenshots are in `store/` (see `store/PLAY_STORE_LISTING.md`).
 - The year-wise papers follow each year's pattern and use commonly asked topics. They are **not** the official question papers. To add the official papers, upload them to Firestore (see below).
 
 ## Firestore (to configure later)

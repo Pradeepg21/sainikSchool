@@ -2,12 +2,12 @@ package com.satya.sainikschool.data.content
 
 /**
  * Admission & exam information for AISSEE, compiled from public sources (NTA notices for the
- * 2025/2026 cycles and education portals) as of October 2026. Dates for the 2027 cycle are
- * expected, not confirmed — the app always points students to the official bulletin.
+ * 2025/2026/2027 cycles and education portals) as of November 2026. The 2027 schedule follows the
+ * NTA notification of 3 Nov 2026 — the app always points students to the official bulletin.
  */
 object AdmissionInfo {
 
-    const val LAST_REVIEWED = "October 2026"
+    const val LAST_REVIEWED = "November 2026"
     const val OFFICIAL_NTA = "https://exams.nta.nic.in/sainik-school-society/"
     const val OFFICIAL_SOCIETY = "https://sainikschoolsociety.in"
     const val OFFICIAL_COUNSELLING = "https://pesa.ncog.gov.in/sainikschoolecounselling/"
@@ -88,12 +88,14 @@ object AdmissionInfo {
         "Processing charges and GST, if applicable, are extra. Check the 2027 bulletin for revised fees.",
     ))
 
-    val dates = InfoBlock("Important dates", listOf(
-        "AISSEE 2026 (last cycle): registration closed in late October/November 2025; exam held on Sunday, 18 January 2026.",
-        "AISSEE 2027 (expected): notification and online form around October–November 2026; exam expected in January 2027.",
-        "Admit card: about 10 days before the exam. Result: usually 4–6 weeks after the exam.",
-        "e-Counselling: starts after the result, in several rounds until seats are filled.",
-        "Always confirm dates on the official NTA website — they change every year.",
+    val dates = InfoBlock("Important dates — AISSEE 2027", listOf(
+        "Online application: 3 November 2026 to 2 December 2026 (fee payment till 11:50 PM).",
+        "Late application with ₹500 extra fee: 3 to 6 December 2026.",
+        "Application correction window: 7 to 9 December 2026.",
+        "Exam city intimation: 11 January 2027. Admit card: 25 January 2027.",
+        "Exam date: Sunday, 31 January 2027 (pen-and-paper, OMR). Class 6: 150 min, Class 9: 180 min.",
+        "Answer key and result: expected February–March 2027, followed by e-counselling rounds.",
+        "Always confirm dates on the official NTA website — they can be revised.",
     ))
 
     val reservation = InfoBlock("Reservation of seats", listOf(

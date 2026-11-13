@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><defs>
+ <radialGradient id="bgG" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#2A5585"/><stop offset="1" stop-color="#0B2239"/></radialGradient>
+</defs>
+<rect width="512" height="512" fill="url(#bgG)"/>
+<g opacity="0.16">
+ <path d="M256 290 L 0 120 L 0 200 Z M256 290 L 60 0 L 150 0 Z M256 290 L 300 0 L 380 0 Z M256 290 L 512 40 L 512 130 Z M256 290 L 512 260 L 512 340 Z M256 290 L 0 330 L 0 260 Z" fill="#7FB0E8"/>
+ <path d="M256 290 L 0 0 L 40 0 Z M256 290 L 210 0 L 250 0 Z M256 290 L 440 0 L 500 0 Z M256 290 L 512 180 L 512 215 Z" fill="#FFFFFF" opacity="0.5"/>
+</g>
+<circle cx="256" cy="290" r="196" fill="none" stroke="#FF9933" stroke-width="10" stroke-dasharray="410 1300" transform="rotate(200 256 290)"/>
+<circle cx="256" cy="290" r="196" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-dasharray="0 410 410 1300" transform="rotate(200 256 290)"/>
+<circle cx="256" cy="290" r="196" fill="none" stroke="#138808" stroke-width="10" stroke-dasharray="0 820 410 1300" transform="rotate(200 256 290)"/>
+<!-- laurel wreath -->
+<g id="laurel" fill="#F2C14E">
+  <g id="lw">
+    <path d="M150 430 C 105 380, 95 300, 120 230" fill="none" stroke="#D9A932" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="112" cy="250" rx="11" ry="24" transform="rotate(-20 112 250)"/>
+    <ellipse cx="138" cy="262" rx="10" ry="22" transform="rotate(40 138 262)"/>
+    <ellipse cx="104" cy="295" rx="11" ry="24" transform="rotate(-8 104 295)"/>
+    <ellipse cx="131" cy="306" rx="10" ry="22" transform="rotate(55 131 306)"/>
+    <ellipse cx="108" cy="342" rx="11" ry="24" transform="rotate(10 108 342)"/>
+    <ellipse cx="136" cy="350" rx="10" ry="22" transform="rotate(68 136 350)"/>
+    <ellipse cx="124" cy="388" rx="11" ry="24" transform="rotate(28 124 388)"/>
+    <ellipse cx="153" cy="392" rx="10" ry="21" transform="rotate(80 153 392)"/>
+    <ellipse cx="121" cy="212" rx="10" ry="20" transform="rotate(-35 121 212)"/>
+  </g>
+  <use href="#lw" transform="translate(512 0) scale(-1 1)"/>
+</g>
+<!-- shoulders / uniform -->
+<path d="M70 512 C 78 440, 120 410, 188 398 L 256 420 L 324 398 C 392 410, 434 440, 442 512 Z" fill="#4F6B2F"/>
+<path d="M70 512 C 78 440, 120 410, 188 398 L 210 412 C 160 430, 140 470, 132 512 Z" fill="#3E5524"/>
+<path d="M442 512 C 434 440, 392 410, 324 398 L 302 412 C 352 430, 372 470, 380 512 Z" fill="#3E5524"/>
+<!-- epaulettes -->
+<path d="M120 420 L 182 404 L 188 424 L 128 442 Z" fill="#2E3F1A"/>
+<path d="M392 420 L 330 404 L 324 424 L 384 442 Z" fill="#2E3F1A"/>
+<rect x="146" y="414" width="10" height="10" rx="2" fill="#F2C14E" transform="rotate(-15 151 419)"/>
+<rect x="356" y="414" width="10" height="10" rx="2" fill="#F2C14E" transform="rotate(15 361 419)"/>
+<!-- neck -->
+<path d="M222 350 L 290 350 L 294 410 L 256 432 L 218 410 Z" fill="#B87A4E"/>
+<!-- collar -->
+<path d="M188 398 L 222 384 L 256 432 L 226 452 Z" fill="#6B8A3F"/>
+<path d="M324 398 L 290 384 L 256 432 L 286 452 Z" fill="#6B8A3F"/>
+<path d="M256 432 L 246 512 L 266 512 Z" fill="#3E5524"/>
+<!-- ribbon bar (tricolour) + name plate -->
+<rect x="164" y="462" width="16" height="12" fill="#FF9933"/><rect x="180" y="462" width="16" height="12" fill="#FFFFFF"/><rect x="196" y="462" width="16" height="12" fill="#138808"/>
+<rect x="300" y="464" width="56" height="12" rx="3" fill="#1B2A0C"/>
+<!-- ears -->
+<ellipse cx="186" cy="298" rx="15" ry="24" fill="#C98B5E"/>
+<ellipse cx="326" cy="298" rx="15" ry="24" fill="#C98B5E"/>
+<!-- face -->
+<path d="M190 262 C 190 220, 322 220, 322 262 L 322 305 C 322 352, 290 378, 256 378 C 222 378, 190 352, 190 305 Z" fill="#D99A6C"/>
+<path d="M300 250 C 318 260, 322 280, 322 305 C 322 352, 290 378, 256 378 C 286 368, 306 340, 306 300 Z" fill="#C98B5E"/>
+<!-- sideburns -->
+<path d="M190 262 L 190 296 L 200 290 L 202 258 Z" fill="#2B1B12"/>
+<path d="M322 262 L 322 296 L 312 290 L 310 258 Z" fill="#2B1B12"/>
+<!-- eyebrows / eyes / nose / smile -->
+<path d="M218 280 Q 232 271 246 279" stroke="#2B1B12" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M266 279 Q 280 271 294 280" stroke="#2B1B12" stroke-width="7" fill="none" stroke-linecap="round"/>
+<ellipse cx="233" cy="298" rx="8" ry="9" fill="#1A1A1A"/><circle cx="236" cy="295" r="2.5" fill="#fff"/>
+<ellipse cx="279" cy="298" rx="8" ry="9" fill="#1A1A1A"/><circle cx="282" cy="295" r="2.5" fill="#fff"/>
+<path d="M256 304 L 249 330 Q 256 335 264 330" stroke="#A8693F" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M234 344 Q 256 362 278 344" stroke="#7A3B22" stroke-width="6" fill="none" stroke-linecap="round"/>
+<!-- peaked cap -->
+<path d="M158 222 C 150 160, 362 160, 354 222 L 338 252 L 174 252 Z" fill="#4F6B2F"/>
+<path d="M158 222 C 154 186, 200 170, 256 168 C 214 176, 186 196, 186 252 L 174 252 Z" fill="#6B8A3F"/>
+<rect x="174" y="226" width="164" height="28" rx="4" fill="#8B1A1A"/>
+<path d="M168 252 Q 256 300 344 252 Q 256 270 168 252 Z" fill="#141414"/>
+<path d="M190 258 Q 256 282 322 258" stroke="#444" stroke-width="3" fill="none"/>
+<!-- cap badge: gold star in ring -->
+<circle cx="256" cy="212" r="26" fill="#F2C14E" stroke="#B8860B" stroke-width="3"/>
+<path d="M256 192 L 262 206 L 277 206 L 265 215 L 270 230 L 256 221 L 242 230 L 247 215 L 235 206 L 250 206 Z" fill="#8B1A1A"/>
+</svg>

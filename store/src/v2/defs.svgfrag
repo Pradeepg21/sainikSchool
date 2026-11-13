@@ -1,0 +1,19 @@
+<defs>
+ <style>@font-face{font-family:Sten;src:url("file:///C:/Windows/Fonts/STENCIL.TTF")}</style>
+ <pattern id="camo" width="256" height="256" patternUnits="userSpaceOnUse">
+  <rect width="256" height="256" fill="#4B5530"/>
+  <path d="M0 30 C40 10 70 40 110 25 C140 15 150 60 120 75 C90 90 60 70 30 90 C10 100 -5 70 0 30Z" fill="#6B6A3E"/>
+  <path d="M150 0 C190 20 230 0 256 20 L256 70 C220 90 200 60 170 70 C150 75 135 40 150 0Z" fill="#2F3720"/>
+  <path d="M60 120 C100 100 140 130 180 115 C210 105 240 140 220 170 C200 195 160 175 130 190 C95 205 50 180 60 120Z" fill="#7A6A45"/>
+  <path d="M0 170 C30 160 50 190 40 220 C30 250 0 240 0 256Z" fill="#2F3720"/>
+  <path d="M200 200 C230 190 256 210 256 230 L256 256 L180 256 C175 230 185 205 200 200Z" fill="#6B6A3E"/>
+  <path d="M90 230 C110 215 140 225 150 256 L80 256 C78 245 82 236 90 230Z" fill="#3A4326"/>
+  <path d="M200 90 C215 85 225 100 215 110 C205 118 190 105 200 90Z" fill="#7A6A45"/>
+  <path d="M20 110 C35 105 45 120 35 130 C25 138 10 125 20 110Z" fill="#2F3720"/>
+ </pattern>
+ <radialGradient id="sun" cx="50%" cy="72%" r="65%"><stop offset="0" stop-color="#FFE7A3"/><stop offset=".35" stop-color="#FFB547"/><stop offset=".75" stop-color="#E8862A"/><stop offset="1" stop-color="#B5531A"/></radialGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE08A"/><stop offset=".5" stop-color="#E2B33F"/><stop offset="1" stop-color="#A97A1C"/></linearGradient>
+ <clipPath id="inner"><circle cx="256" cy="256" r="172"/></clipPath>
+ <path id="arcTop" d="M 66 256 A 190 190 0 0 1 446 256"/>
+ <path id="arcBot" d="M 58 262 A 198 198 0 0 0 454 262"/>
+</defs>
